@@ -15,7 +15,7 @@ export const Navigation = () => {
                     <nav>
                         <img src={ logo } alt="React Logo" />
                         <ul>                       
-                            {
+                        {
                                 routes.map( route =>(
                                     <li key={ route.to }>
                                         <NavLink 
